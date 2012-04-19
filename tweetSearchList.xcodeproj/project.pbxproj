@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668DA3461540728000D5B229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DA3451540728000D5B229 /* UIKit.framework */; };
+		668DA3481540728000D5B229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DA3471540728000D5B229 /* Foundation.framework */; };
+		668DA34A1540728000D5B229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668DA3491540728000D5B229 /* CoreGraphics.framework */; };
+		668DA3501540728000D5B229 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668DA34E1540728000D5B229 /* InfoPlist.strings */; };
+		668DA3521540728000D5B229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668DA3511540728000D5B229 /* main.m */; };
+		668DA3561540728000D5B229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 668DA3551540728000D5B229 /* AppDelegate.m */; };
+		668DA3591540728000D5B229 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668DA3571540728000D5B229 /* MainStoryboard.storyboard */; };
+		668DA35C1540728000D5B229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668DA35B1540728000D5B229 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		668DA3411540728000D5B229 /* tweetSearchList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetSearchList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668DA3451540728000D5B229 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		668DA3471540728000D5B229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		668DA3491540728000D5B229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		668DA34D1540728000D5B229 /* tweetSearchList-Info.plist */ = {isa = PBXFileReference; path = "tweetSearchList-Info.plist"; sourceTree = "<group>"; };
+		668DA34F1540728000D5B229 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		668DA3511540728000D5B229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		668DA3531540728000D5B229 /* tweetSearchList-Prefix.pch */ = {isa = PBXFileReference; path = "tweetSearchList-Prefix.pch"; sourceTree = "<group>"; };
+		668DA3541540728000D5B229 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		668DA3551540728000D5B229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		668DA3581540728000D5B229 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		668DA35A1540728000D5B229 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		668DA35B1540728000D5B229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668DA33E1540728000D5B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668DA3461540728000D5B229 /* UIKit.framework in Frameworks */,
+				668DA3481540728000D5B229 /* Foundation.framework in Frameworks */,
+				668DA34A1540728000D5B229 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668DA3361540728000D5B229 = {
+			isa = PBXGroup;
+			children = (
+				668DA34B1540728000D5B229 /* tweetSearchList */,
+				668DA3441540728000D5B229 /* Frameworks */,
+				668DA3421540728000D5B229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668DA3421540728000D5B229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668DA3411540728000D5B229 /* tweetSearchList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668DA3441540728000D5B229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668DA3451540728000D5B229 /* UIKit.framework */,
+				668DA3471540728000D5B229 /* Foundation.framework */,
+				668DA3491540728000D5B229 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668DA34B1540728000D5B229 /* tweetSearchList */ = {
+			isa = PBXGroup;
+			children = (
+				668DA3541540728000D5B229 /* AppDelegate.h */,
+				668DA3551540728000D5B229 /* AppDelegate.m */,
+				668DA3571540728000D5B229 /* MainStoryboard.storyboard */,
+				668DA35A1540728000D5B229 /* ViewController.h */,
+				668DA35B1540728000D5B229 /* ViewController.m */,
+				668DA34C1540728000D5B229 /* Supporting Files */,
+			);
+			path = tweetSearchList;
+			sourceTree = "<group>";
+		};
+		668DA34C1540728000D5B229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				668DA34D1540728000D5B229 /* tweetSearchList-Info.plist */,
+				668DA34E1540728000D5B229 /* InfoPlist.strings */,
+				668DA3511540728000D5B229 /* main.m */,
+				668DA3531540728000D5B229 /* tweetSearchList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668DA3401540728000D5B229 /* tweetSearchList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668DA35F1540728000D5B229 /* Build configuration list for PBXNativeTarget "tweetSearchList" */;
+			buildPhases = (
+				668DA33D1540728000D5B229 /* Sources */,
+				668DA33E1540728000D5B229 /* Frameworks */,
+				668DA33F1540728000D5B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tweetSearchList;
+			productName = tweetSearchList;
+			productReference = 668DA3411540728000D5B229 /* tweetSearchList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668DA3381540728000D5B229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 668DA33B1540728000D5B229 /* Build configuration list for PBXProject "tweetSearchList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 668DA3361540728000D5B229;
+			productRefGroup = 668DA3421540728000D5B229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668DA3401540728000D5B229 /* tweetSearchList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668DA33F1540728000D5B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668DA3501540728000D5B229 /* InfoPlist.strings in Resources */,
+				668DA3591540728000D5B229 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668DA33D1540728000D5B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668DA3521540728000D5B229 /* main.m in Sources */,
+				668DA3561540728000D5B229 /* AppDelegate.m in Sources */,
+				668DA35C1540728000D5B229 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		668DA34E1540728000D5B229 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668DA34F1540728000D5B229 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		668DA3571540728000D5B229 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668DA3581540728000D5B229 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668DA35D1540728000D5B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		668DA35E1540728000D5B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668DA3601540728000D5B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetSearchList/tweetSearchList-Prefix.pch";
+				INFOPLIST_FILE = "tweetSearchList/tweetSearchList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		668DA3611540728000D5B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetSearchList/tweetSearchList-Prefix.pch";
+				INFOPLIST_FILE = "tweetSearchList/tweetSearchList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668DA33B1540728000D5B229 /* Build configuration list for PBXProject "tweetSearchList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668DA35D1540728000D5B229 /* Debug */,
+				668DA35E1540728000D5B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668DA35F1540728000D5B229 /* Build configuration list for PBXNativeTarget "tweetSearchList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668DA3601540728000D5B229 /* Debug */,
+				668DA3611540728000D5B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668DA3381540728000D5B229 /* Project object */;
+}
