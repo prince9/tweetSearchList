@@ -1,0 +1,10 @@
+1.Single View -Applicationで新規プロジェクトを作る。「TARGETS」をクリック、Linked Frameworks and Librariesの+をクリックして「QuartzCore.framework」を追加する
+2.Storyboardをクリックし、Navigation Controllerを持って行く。Navigation Controllerにくっついているテーブルを消す。Navigation Controllerを右クリックして元からあったViewControllerに結びつける。このときいちばん上のRelationshipを選ぶ
+3.Storyboardにそれぞれパーツを設置、ViewControllerのTableViewとTextFieldのみひもづけて、後はパーツを置くだけにする
+4.この例だと「tweetSearchList」フォルダを右クリックしてNewFile..を選ぶ。Objective-C class→Classに好きな名前を入れてSub classをUIViewControllerにして、新しくUIViewControllerを作る
+5.Storyboardに新しくViewControllerを持って行く。Table View Cellを右クリックして新しく作ったViewControllerと結びつける。そのときpushを選ぶ
+6.Storyboardで新しく作ったViewControllerをクリックし、Classを新しく作ったViewControllerの名前にする
+7.Table View Cellをクリックし、Identiferに「tweetCell」と入力する
+8.iOSやXCodeのバージョンによっても異なるが、https://github.com/stig/json-framework/downloadsにアクセスして最新版をダウンロードする。その中の「class」というフォルダをそのままXCodeのプロジェクトファイルにドラッグする
+9.ViewControllerとDetailViewControllerの//追加と書いてある部分を追加する
+10.一度Runした後、ひとつひとつのツイートの文字数を見てTable ViewやTable View CellのRow heightを調整する
